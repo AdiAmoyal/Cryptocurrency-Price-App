@@ -11,6 +11,11 @@
 		919EF4DB29993E7900B1DF20 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919EF4DA29993E7900B1DF20 /* ContentView.swift */; };
 		919EF4DD29993E7C00B1DF20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 919EF4DC29993E7C00B1DF20 /* Assets.xcassets */; };
 		919EF4E029993E7C00B1DF20 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 919EF4DF29993E7C00B1DF20 /* Preview Assets.xcassets */; };
+		919EF4E7299944E800B1DF20 /* CurrenciesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919EF4E6299944E800B1DF20 /* CurrenciesData.swift */; };
+		919EF4E92999451F00B1DF20 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919EF4E82999451F00B1DF20 /* Currency.swift */; };
+		919EF4EB299945ED00B1DF20 /* CoinLoreAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919EF4EA299945ED00B1DF20 /* CoinLoreAPI.swift */; };
+		919EF4EE2999721500B1DF20 /* Currencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919EF4ED2999721500B1DF20 /* Currencies.swift */; };
+		919EF4F0299A446500B1DF20 /* CurrencyCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919EF4EF299A446500B1DF20 /* CurrencyCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		919EF4DA29993E7900B1DF20 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		919EF4DC29993E7C00B1DF20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		919EF4DF29993E7C00B1DF20 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		919EF4E6299944E800B1DF20 /* CurrenciesData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrenciesData.swift; sourceTree = "<group>"; };
+		919EF4E82999451F00B1DF20 /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		919EF4EA299945ED00B1DF20 /* CoinLoreAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinLoreAPI.swift; sourceTree = "<group>"; };
+		919EF4ED2999721500B1DF20 /* Currencies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currencies.swift; sourceTree = "<group>"; };
+		919EF4EF299A446500B1DF20 /* CurrencyCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +63,13 @@
 			children = (
 				919EF4D829993E7900B1DF20 /* Cryptocurrency_Price_AppApp.swift */,
 				919EF4DA29993E7900B1DF20 /* ContentView.swift */,
+				919EF4E6299944E800B1DF20 /* CurrenciesData.swift */,
+				919EF4E82999451F00B1DF20 /* Currency.swift */,
+				919EF4EA299945ED00B1DF20 /* CoinLoreAPI.swift */,
+				919EF4ED2999721500B1DF20 /* Currencies.swift */,
 				919EF4DC29993E7C00B1DF20 /* Assets.xcassets */,
 				919EF4DE29993E7C00B1DF20 /* Preview Content */,
+				919EF4EF299A446500B1DF20 /* CurrencyCardView.swift */,
 			);
 			path = "Cryptocurrency Price App";
 			sourceTree = "<group>";
@@ -137,8 +152,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				919EF4EE2999721500B1DF20 /* Currencies.swift in Sources */,
+				919EF4E92999451F00B1DF20 /* Currency.swift in Sources */,
 				919EF4DB29993E7900B1DF20 /* ContentView.swift in Sources */,
 				919EF4D929993E7900B1DF20 /* Cryptocurrency_Price_AppApp.swift in Sources */,
+				919EF4EB299945ED00B1DF20 /* CoinLoreAPI.swift in Sources */,
+				919EF4F0299A446500B1DF20 /* CurrencyCardView.swift in Sources */,
+				919EF4E7299944E800B1DF20 /* CurrenciesData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +290,7 @@
 				DEVELOPMENT_TEAM = A83DTTZX83;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Cryptocurrency-Price-App-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +320,7 @@
 				DEVELOPMENT_TEAM = A83DTTZX83;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Cryptocurrency-Price-App-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
